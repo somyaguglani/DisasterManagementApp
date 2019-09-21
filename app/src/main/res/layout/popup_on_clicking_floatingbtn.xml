@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Task"
+            android:textSize="30sp"
+            android:id="@+id/popup_onclickFB_et"/>
+    </com.google.android.material.textfield.TextInputLayout>
+<Button
+    android:layout_margin="30dp"
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/popup_onclickFB_btn"
+    android:padding="10dp"
+    android:text="Add"
+    android:textSize="18sp"
+    android:background="@drawable/layout_of_add_btn"/>
+
+</LinearLayout>

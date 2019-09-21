@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/todo"
+    android:title="Todo"
+    android:icon="@drawable/todo"></item>
+    <item
+        android:title="SOS"
+        android:id="@+id/sos"
+        android:icon="@drawable/sos2"
+        ></item>
+    <item android:id="@+id/Videos"
+        android:title="Videos"
+        android:icon="@mipmap/video" ></item>
+</menu>
